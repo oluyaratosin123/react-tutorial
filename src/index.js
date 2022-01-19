@@ -5,7 +5,8 @@ import TodoContainer from './components/TodoContainer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <TodoContainer />,
+    <TodoContainer />
+    ,
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );

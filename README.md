@@ -1,3 +1,9 @@
+# react-tutorial
+
+This is a todo list app that takes user input and each rendered input can be edited and updated
+
+![](/src/components/assets/handleChange.PNG)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
