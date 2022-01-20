@@ -1,6 +1,6 @@
 # react-tutorial
 
-This is a todo list app that takes user input and each rendered input can be edited and updated
+This is a todo list app that takes user input and each rendered input can be edited and updated todo items
 
 ![](/src/components/assets/handleChange.PNG)
 
