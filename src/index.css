@@ -15,3 +15,26 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+header {
+  text-align: center;
+  background-color: #d3d3d3;
+  margin: 100px;
+}
+
+.Todo-list-items {
+  margin: 50px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.space-out-todo-items {
+  align-items: center;
+}
+
+.delete-btn {
+  margin-left: 300px;
+  display: block;
+}

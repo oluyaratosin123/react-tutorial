@@ -4,13 +4,13 @@ import TodoItem from './TodoItem';
 class TodoList extends React.Component {
   render() {
     return (
-      <ul>
+      <ul className="Todo-list-items">
         {this.props.todos.map((todo) => (
           <TodoItem
+          deleteTodoProps={this.props.deleteTodoProps}
             key={todo.id}
             todo={todo}
             handleChangeProps={this.props.handleChangeProps}
-            deleteTodoProps={this.props.deleteTodoProps}
           />
         ))}
       </ul>

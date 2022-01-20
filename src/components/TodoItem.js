@@ -1,7 +1,7 @@
 import React from 'react';
 
 const TodoItem = (props) => (
-  <li>
+  <li className="space-out-todo-items">
     <input
       type="checkbox"
       checked={props.todo.completed}
@@ -9,7 +9,7 @@ const TodoItem = (props) => (
     />
     {props.todo.title}
 
-    <button onClick={() => this.props.deleteTodoProps(this.props.todo.id)}>
+    <button className="delete-btn" onClick={() => this.props.deleteTodoProps(this.props.todo.id)}>
       Delete
     </button>
   </li>
